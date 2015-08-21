@@ -1,0 +1,21 @@
+{
+    "name": "sensorario/console",
+    "description": "Starting console command ...",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Simone Gentili",
+            "email": "sensorario@gmail.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpexcel": "^1.8",
+        "symfony/console": "^2.7",
+        "phpunit/phpunit": "^4.8"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    }
+}
